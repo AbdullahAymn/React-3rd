@@ -1,0 +1,132 @@
+.design{
+    padding: 80px;
+    
+}
+
+.descont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.descont .img{
+    padding: 0px;
+    max-width: 60%;
+    margin-top: 40px;
+    position: relative;
+    z-index: 1;
+    
+}
+.descont .img img {
+    width: 100%;
+}
+.descont .other{
+    background-color: #f2f2f2;
+    padding: 40px;
+    max-width: 35%;
+    margin-left: 30px;
+    margin-top:100px ;
+    height: 120%;
+    z-index: 3;
+    
+}
+.descont .other h2{
+    font-weight: 400;
+    font-family: 'Bai Jamjuree';
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.descont .other p , .descont .other a{
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 20px 0 30px;
+
+}
+
+.descont .other a{
+    color: #000;
+}
+
+.design .cir{
+    width: 228px;
+    height: 228px;
+    background-image: linear-gradient(#e84a90, #545af8);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: -80px;
+    left: 88%;
+}
+
+@media screen and (max-width: 1000px){
+    .descont .other h2{
+        
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .descont .other p , .descont .other a{
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 10px 0 20px;
+    
+    }
+
+}
+@media screen and (max-width: 960px){
+    .descont .img{
+        
+        max-width: 80%;
+        margin-top: 0px;
+        z-index: 1;
+        
+    }
+    .descont .other{
+        
+        padding: 40px;
+        max-width: 50%;
+        margin-left: 50%;
+        margin-top:20px ;
+        
+        
+    }
+    .design .cir{
+        width: 170px;
+        height: 170px;
+        
+        z-index: 2;
+        top: 85%;
+        left: 50%;
+    }
+
+}
+@media screen and (max-width: 650px){
+    .design{
+        padding: 40px 10px;
+        
+    }
+    
+    .descont .img{
+        
+        max-width: 100%;
+        
+        
+    }
+    .descont .other{
+        
+        padding: 40px;
+        max-width: 80%;
+        margin-left: 15%;
+        
+        
+    }
+    .design .cir{
+        width: 180px;
+        height: 180px;
+        
+        z-index: 2;
+        top: 85%;
+        left: 0%;
+    }
+
+}

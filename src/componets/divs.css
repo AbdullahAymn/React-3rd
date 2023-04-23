@@ -1,0 +1,91 @@
+.Divscont{
+    background: linear-gradient(#e84a90, #545af8);
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Divscont section{
+    max-width: 18%;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 100px;
+    margin: 0 10px;
+    box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.29);
+-webkit-box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.29);
+    height: 110%;
+}
+.Divscont .down{
+    margin-top: 120px;
+
+}
+
+.Divscont section h5 , .Divscont section i{
+    color: #545af8 !important;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    
+}
+.Divscont section h5{
+    font-family: 'Bai Jamjuree';
+}
+.Divscont section i{
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin: 10px auto;
+    
+    
+
+}
+.Divscont .down h5 , .Divscont .down i{
+    color: #e84a90 !important;
+
+}
+
+.Divscont section p{
+    font-family: 'Open Sans',sans-serif;
+    margin: 20px auto ;
+    font-weight: 300;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #4c615a !important;
+}
+
+.Divscont section a{
+    color: #000;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 1150px){
+    .Divscont{
+        padding: 20px;
+    }
+    .Divscont section{
+        max-width: 16%;
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 960px){
+    .Divscont section{
+        max-width: 40%;
+        margin: 20px auto;
+    }
+    .Divscont .down{
+        margin: 20px auto;
+    
+    }
+
+}
+@media screen and (max-width: 550px){
+    .Divscont section{
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    
+    
+
+}

@@ -1,0 +1,119 @@
+.aboutcont{
+    padding: 80px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aboutcont section{
+    min-width: 33%;
+    max-width: 33%;
+    height: 100%;
+    
+}
+.aboutcont section img{
+    width: 100%;
+    /* height: 55% !important; */
+}
+.aboutcont .img{
+    margin-top: 200px;
+}
+.aboutcont .first{
+    margin-top: 100px;
+    
+}
+.aboutcont .first div{
+    background-color: #fff;
+    padding: 50px 30px;
+}
+.aboutcont .first div h3{
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.2;
+    font-family: 'Bai Jamjuree';
+}
+.aboutcont .first div p , .aboutcont .first div a{
+    width : 80%;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.aboutcont .second div{
+    background: linear-gradient(#e84a90, #545af8);
+    padding: 50px 30px;
+    color: #fff;
+}
+.aboutcont .second div h3{
+
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Bai Jamjuree";
+    font-size: 2.25rem;
+}
+.aboutcont .second div i{
+    font-size: 3rem;
+
+
+}
+@media screen and (max-width: 1100px){
+    .aboutcont .second div h3{
+
+        
+        font-size: 1.7rem;
+    }
+    .aboutcont .second div i{
+        font-size: 2.7rem;
+    
+    
+    }
+
+}
+@media screen and (max-width: 1000px){
+    .aboutcont{
+        padding: 40px;
+    }
+    .aboutcont .second div h3{
+
+        
+        font-size: 1.2rem;
+    }
+    .aboutcont .second div i{
+        font-size: 2.2rem;
+    
+    
+    }
+
+    .aboutcont .first div h3{
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .aboutcont .first div p , .aboutcont .first div a{
+        width : 90%;
+        font-size: 1.1rem;
+        
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width: 700px){
+    .aboutcont section{
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .aboutcont .img{
+        margin-top: 00px;
+    }
+    .aboutcont .first{
+        margin-top: 00px;
+        
+    }
+    
+
+}

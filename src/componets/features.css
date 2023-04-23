@@ -1,0 +1,110 @@
+.fetucont{
+    padding: 70px 100px;
+    text-align: center;
+}
+
+.fetucont h1{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.fetucont h3{
+    width: 50%;
+    margin: 20px auto 70px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.fetucont .cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fetucont .cont section{
+    max-width: 50%;
+}
+
+.fetucont .cont .im img{
+    width: 100%;
+}
+.fetucont .cont .ch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fetucont .cont .ch section{
+    min-width: 47%;
+    max-width: 48%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: #e5e5e5;
+    margin: 10px auto;
+    padding: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.fetucont .cont .ch section i{
+    margin: 15px auto 0;
+    font-size: 66px;
+    color: #545af8;
+}
+
+.fetucont .cont .ch .first{
+    background-color: #e84a90;
+    color: #fff;
+
+}
+.fetucont .cont .ch .first i,.fetucont .cont .ch .last i{
+    color: #fff;
+
+}
+.fetucont .cont .ch .last{
+    background-color: #545af8;
+    color: #fff;
+
+
+}
+
+
+@media screen and (max-width: 1200px){
+    .fetucont{
+        padding: 40px;
+    }
+
+    .fetucont .cont .ch section i{
+        
+        font-size: 50px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 960px){
+    .fetucont .cont section{
+        max-width: 98%;
+    }
+    .fetucont .cont .ch section i{
+        font-size: 66px;
+        
+    }
+    .fetucont h3{
+        width: 100%;
+
+    }
+    .fetucont h1{
+        font-size: 2.75rem;
+
+    }
+
+}
+@media screen and (max-width: 600px){
+    .fetucont .cont .ch section {
+        min-width: 100%;
+        max-width: 100%;
+        
+    }
+
+}

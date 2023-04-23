@@ -1,0 +1,24 @@
+.buttondiv a button{
+    font-size: 1rem;
+    padding: 15px 23px;
+    color:#fff  ;
+    border: none;
+    border-radius: 40px;
+    background-color: #8184d8 ;
+    text-transform: uppercase;
+    margin: 0 !important ;
+}
+
+.buttondiv a button:hover{
+    cursor: pointer;
+    background-color: #545af8;
+
+}
+.pink{
+    background-color: #f759a0!important ;
+
+}
+.pink:hover{
+    background-color: #e84a90!important ;
+
+}

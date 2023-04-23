@@ -1,0 +1,97 @@
+.homecont{
+    width: 100%;
+    background:  linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("images/cover1.jpg") no-repeat;
+    background-position: 50% 50%;
+    /* height: 95vh; */
+    padding: 70px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #fff;
+}
+.homecont div{
+    margin: 10px auto;
+    max-width: 40%;
+    padding: 10px;
+}
+
+.homecont .first h3{
+    letter-spacing: 4px;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 50px;
+}
+.homecont .first i{
+    color : #fff;
+    margin: 200px 10px 0;
+    font-size: 22px;
+}
+
+.homecont .first h1{
+    
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0 0;
+    
+}
+
+.homecont .second p{
+    font-size: 1.25rem;
+    line-height: 1.7;
+    font-weight: 300;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.homecont .second h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+    line-height: 1.7;
+}
+.homecont .second button{
+    margin-left: -140px !important;
+}
+@media screen and (max-width: 1200px){
+    .homecont .second button{
+        margin-left: -100px !important;
+    }
+
+}
+@media screen and (max-width:800px){
+    .homecont div{
+        max-width: 95%;
+    }
+    .homecont .second button{
+        margin-left: -20px !important;
+    }
+    .homecont .first i{
+        
+        margin: 70px 10px 0;
+        
+    }
+
+}
+@media screen and (max-width:600px){
+    .homecont .first h3{
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+    
+    .homecont .first h1{
+        
+        font-size: 3rem;
+        font-weight: 700;
+        
+        
+    }
+
+}
+@media screen and (max-width:500px){
+    .homecont{
+        padding: 20px;
+    }
+
+}

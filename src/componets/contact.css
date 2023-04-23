@@ -1,0 +1,156 @@
+.contactcont{
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    justify-content: center;
+}
+.contact{
+    background-color: #fff;
+    
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+
+}
+
+.contact::after{
+    height: 50% ;
+    width: 127%;
+    position: absolute;
+    top: 25%;
+    left: -15%;
+    z-index: 1;
+    background: linear-gradient(#545af8 ,#e84a90);
+    content: " ";
+} 
+
+.contact section{
+    /* min-width: 50%;
+    max-width: 50%; */
+    z-index: 3;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+.text{
+    min-width: 40%;
+    max-width: 40%;
+}
+.text h2{
+    font-weight: 400;
+    font-family: 'Bai Jamjuree';
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.text section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 30px 0;
+    width: 100%;
+    padding: 0;
+    
+
+}
+
+.text section p{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    padding: 0;
+}
+.text section p:hover{
+    color: #545af8 ;
+    cursor: pointer;
+    
+}
+.text section i{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    padding: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #545af8 ;
+
+}
+.text a{
+    margin: 40px 10px ;
+    
+}
+.text a i{
+    color: #545af8;
+    font-size: 1.25rem;
+
+}
+.form{
+    min-width: 60%;
+    max-width: 60%;
+}
+.form input , .form textarea , .form button{
+    width: 100%;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: none;
+    margin: 5px auto;
+    font-size: 1rem;
+    
+}
+.form input:focus-visible ,.form textarea:focus-visible{
+    outline: 2px #545af834 solid;
+    /* border: ; */
+    border-radius: 5px;
+}
+
+.form button{
+    background-color: #545af8;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+.form button:hover{
+    cursor: pointer;
+}
+@media screen and (max-width: 1300px){
+    .contact section{
+        min-width: 50%;
+        max-width: 50%; 
+
+    }
+
+}
+@media screen and (max-width: 1050px){
+    .text section p{
+        font-size: 1rem;
+        letter-spacing: 0px;
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 820px){
+    .contact section{
+        min-width: 100%;
+        max-width: 100%; 
+
+    }
+    .text{
+        border-radius: 20px 20px 0 0 !important;
+    }
+    .form{
+        border-radius: 0 0 20px 20px !important;
+    }
+
+
+}
+@media screen and (max-width: 500px){
+    .contact section{
+        padding: 30px 20px; 
+
+    }
+    .contact .text section{
+        padding: 0;
+    }
+
+}

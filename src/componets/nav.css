@@ -1,0 +1,128 @@
+.nav-but{
+    
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.nav-but .logo{
+    min-width: 80%;
+}
+.nav-but .logo a{
+    font-size: 28px;
+    text-decoration: none;
+    color: #bbb0b0;
+    
+}
+.fb{
+    color: blue;
+}
+.insta{
+    color: #ff7676;
+}
+
+.nav-but .icons{
+   justify-content: center;
+   width: 20%;
+}
+
+.nav-but .icons a{
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+
+
+
+
+.nav-contat .icon{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    height: 68px;
+}
+.nav-but .fa ,.nav-contat .icon i{
+    color: #000;
+    font-size: 28px;
+
+}
+/* .del{
+    display: none;
+
+} */
+
+.nav-but .fa:hover ,.nav-contat .icon i:hover{
+    cursor: pointer;
+}
+
+.nav-contat{
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(34, 33, 33);
+    position: fixed;
+    top: 0;
+    left: -300px;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+
+    z-index: 200;
+}
+.active{
+    opacity: 1;
+    left: 0;
+    transition: all .5s ease-in-out;
+
+}
+
+.nav-contat .icon{
+    background-color: rgb(49, 49, 49);
+
+}
+
+.nav-contat .icon i{
+    color: #fff;
+}
+
+.nav-contat .items{
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-contat .items a{
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.nav-contat .items a:hover{
+    color: rgba(255, 255, 255, 0.616);
+}
+
+
+@media screen and (max-width: 700px){
+    .nav-but{
+        padding: 3px;
+    }
+    .nav-but .logo ,.nav-but .icons{
+        width: 100%;
+        justify-content: center;
+        justify-content: center;
+    text-align: center;
+    }
+    .nav-but .logo a{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    text-align: center;
+    }
+
+}
